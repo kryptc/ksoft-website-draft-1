@@ -20,6 +20,7 @@
   background-color: #393b3c;
   border-color: #6e7db5;
   font-family: 'Montserrat', sans-serif;
+  opacity: 0.95;
 }
 .navbar-default .navbar-brand {
   color: #c7d3f3;
@@ -184,16 +185,19 @@
   background-color: white;
 }
 
-#footer {
-	/*background-color: #0f124c;*/
+.footer, footer {
+  /*background-color: #0f124c;*/
   background-color: #393b3c;
-	color: white;
-	padding-top: 3%;
-	padding-bottom: 4%;
-	margin-left: 0;
-	margin-right: 0; 
-	min-width: 100%;
-	height: 30%;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  margin-left: 0;
+  margin-right: 0; 
+  margin-bottom: 0;
+  margin-top: 25vh;
+  min-width: 100%;
+  min-height: 30%;
+  text-align: center;
 }
 .h1, h1 {
   font-size: 10vh;
@@ -221,3 +225,90 @@
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
+.image {
+  max-width: 25vh;
+  max-height: 25vh;
+  margin-top: 4vh;
+  z-index: 2;
+}
+.col-sm-4 {
+  text-align: center;
+}
+
+.circle {
+  height: 35vh;
+  width: 35vh;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  z-index: 0;
+  align-content: center;
+  vertical-align: middle;
+}
+#circle-prod {
+  background-color: #071c6b;
+}
+#circle-serv {
+  background-color: #6e7db5;
+}
+#circle-soln {
+  background-color: #c0c8e8;
+}
+
+#content-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 8vh;
+  text-align: center;
+}
+
+.incircle-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  text-align: center;
+  margin-left: 5vh;
+  /*margin-right: 10vh;*/
+  margin-top: -15vh;
+  /*margin-bottom: 10vh;*/
+  color: white;
+  position: absolute;
+  opacity: 0;
+}
+
+#image-holder .image,
+#image-holder .incircle-text {
+  transition: opacity 0.5s ease-in-out;
+}
+
+#image-holder:hover .incircle-text {
+  opacity: 1;
+}
+#image-holder:focus .incircle-text {
+  opacity: 1;
+}
+#image-holder:hover .image {
+  opacity: 0;
+}
+#image-holder:focus .image {
+  opacity: 0;
+}
+a {
+  outline: 0;
+}
+a:hover .incircle-text,
+a:active .incircle-text, 
+a:focus .incircle-text {
+  opacity: 1;
+}
+a:hover .image,
+a:active .image, 
+a:focus .image {
+  opacity: 0;
+}
+
+#container-fluid-panel-a:hover,
+#container-fluid-panel-b:hover {
+  cursor: pointer;
+}
+
+

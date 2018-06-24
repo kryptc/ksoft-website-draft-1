@@ -40,6 +40,7 @@
     margin: 0;
     padding: 0;
     padding-right: 4vh;
+    
 }
 
 .navbar-brand img
@@ -172,15 +173,5 @@
   margin-top: 25vh;
   min-width: 100%;
   min-height: 30%;
-}
-
-.img, img {
-  width: 100%;
-  max-height: 80%;
-  padding: 4%;
-}
-
-.event-img-content {
-  border: 1px solid black;
-  padding: 5%;
+  text-align: center;
 }

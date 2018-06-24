@@ -253,3 +253,37 @@ a:active .image,
 a:focus .image {
   opacity: 0;
 }
+
+.square {
+  height: 30vh;
+  width: 30vh;
+  margin: auto;
+  text-align: center;
+  /*z-index: 0;*/
+  align-content: center;
+  vertical-align: middle;
+  position: relative;
+}
+#square-a {
+  background-color: #071c6b;
+}
+#square-b {
+  background-color: #6e7db5;
+}
+
+.insquare-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5vh;
+  text-align: center;
+  color: white;
+  position: absolute;
+  opacity: 1;
+  height: 20vh;
+  position: absolute;
+  top: 50%;
+  margin-top: -10vh;
+  width: 24vh;
+  left: 50%;
+  margin-left: -12vh;
+  font-weight: 500;
+}
