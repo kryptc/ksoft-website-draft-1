@@ -169,15 +169,21 @@
 	/*background-color: #283a7f;*/
 	background-color: #071c6b;
 	color: white;
+  opacity: 0.9;
 }
 #container-fluid-panel-b {
 	background-color: #6e7db5;
 	text-align: right;
-	color: #36454f;
+	/*color: #36454f;*/
+  color: white;
+  opacity: 0.9;
+
 }
 #container-fluid-panel-c {
 	background-color: #c0c8e8;
-	color: #36454f;
+	color: #36454f;` 
+  opacity: 0.9;
+
 }
 
 #section-partners {

@@ -175,3 +175,6 @@
   min-height: 30%;
   text-align: center;
 }
+.p, p{
+  font-family: 'Montserrat', sans-serif;
+}

@@ -263,6 +263,8 @@ a:focus .image {
   align-content: center;
   vertical-align: middle;
   position: relative;
+  opacity: 0.87;
+  border-radius: 3%;
 }
 #square-a {
   background-color: #071c6b;

@@ -26,7 +26,7 @@
   background-color: #393b3c;
   border-color: #6e7db5;
   font-family: 'Montserrat', sans-serif;
-  opacity: 1;
+  opacity: 0.95;
 }
 .navbar-default .navbar-brand {
   color: #c7d3f3;
@@ -39,6 +39,7 @@
 {
     margin: 0;
     padding: 0;
+    padding-right: 4vh;
 }
 
 .navbar-brand img
@@ -173,13 +174,11 @@
   min-height: 30%;
 }
 
-.img, img {
-  max-height: 40vh;
-  max-width: 70vh;
-  padding: 8vh;
-}
-
-.news {
-  font-size: 6vh;
+.p, p {
+  text-align: left;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 3vh;
+  /*padding-bottom: 1vh;*/
   font-family: 'Montserrat', sans-serif;
 }
